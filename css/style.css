@@ -73,7 +73,9 @@ body {
     font-family: var(--Livvic);
 }
 
-
+.site-header-hero {
+    height: 100vh;
+}
 /* HEADER */
 
 .header {
@@ -100,3 +102,44 @@ body {
     font-weight: 600;
     line-height: 28px;
 }
+
+/* SITE-HERO */
+
+
+.site-hero__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 129px;
+}
+
+.site-title {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    color: var(--White);
+   
+}
+.title-active {
+    color: var(--Light-Coral);
+}
+.site-desc {
+    max-width: 445px;
+    width: 100%;
+    color: var(--White);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+
+}
+.position-realtive {
+    position: relative;
+    height: 85vh;
+}
+
+.site-hero__image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/* SITE-HERO */
