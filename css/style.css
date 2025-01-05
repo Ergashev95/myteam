@@ -73,3 +73,30 @@ body {
     font-family: var(--Livvic);
 }
 
+
+/* HEADER */
+
+.header {
+    padding-top: 73px;
+}
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav {
+    display: flex;
+    column-gap: 80px;
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+    column-gap: 40px;
+
+}
+.nav-link {
+    color: var(--White);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
