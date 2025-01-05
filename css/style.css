@@ -1,0 +1,75 @@
+@import url(./fonts.css);
+
+/* DESIGN SYSTEM */
+
+:root {
+    --Midnight-Green: #014E56;
+    --Light-Coral: #F67E7E;
+    --White: #fff;
+    --Rapture-Blue: #79C8C7;
+    --Police-Blue: #2C6269;
+    --Deep-Jungle-Green: #004047;
+    --Sacramento-State-Green: #012F34;
+    --Dark-Green: #002529;
+    --Livvic: "Livvic";
+
+}
+
+/* GLOBAL STYLE */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1158px;
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: auto;
+}
+
+/* BTN */
+
+.btn {
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 24px;
+    background-color: var(--Sacramento-State-Green);
+    color: var(--White);
+    font-family: var(--Livvic);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: lowercase;
+    border: 2px solid var(--White);
+    transition: .4s;
+
+
+}
+.btn:hover {
+    background-color: var(--White);
+    color: var(--Dark-Green);
+}
+.btn:active {
+    opacity: .25;
+    background-color: transparent;
+    color: var(--White);
+}
+
+
+body {
+    background-color: var(--Midnight-Green);
+    font-family: var(--Livvic);
+}
+
