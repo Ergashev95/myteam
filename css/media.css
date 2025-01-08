@@ -98,5 +98,8 @@
         right: -100px;
         bottom: 0;
     }
+    .menu-image {
+        display: block;
+    }
    
 } 
