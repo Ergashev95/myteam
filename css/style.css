@@ -90,6 +90,7 @@ body {
     display: flex;
     column-gap: 80px;
     align-items: center;
+    transition: .5s;
 }
 .nav-list {
     display: flex;
@@ -101,6 +102,10 @@ body {
     font-size: 18px;
     font-weight: 600;
     line-height: 28px;
+}
+
+.close-icon {
+    display: none;
 }
 
 /* SITE-HERO */
