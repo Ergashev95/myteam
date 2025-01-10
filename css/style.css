@@ -252,6 +252,7 @@ body {
     padding-top: 140px;
     padding-bottom: 140px;
     position: relative;
+    background-color: var(--Deep-Jungle-Green);
 }
 .team-image {
     position: absolute;
@@ -262,7 +263,7 @@ body {
 .team-headline {
     color: var(--White);
     font-size: 48px;
-    font-size: 700;
+    font-weight: 700;
     line-height: 48px;
     text-align: center;
     max-width: 932px;
@@ -294,8 +295,6 @@ body {
     display: block;
     transform: translateY(24px);
     z-index: -10;
-  
-
 }
 
 .team-user__name {
@@ -322,7 +321,7 @@ body {
     border-radius: 50%;
     overflow: hidden;
     border: 2px solid #C4FFFE;
-    margin: 32px auto;
+    margin: 32px auto 0;
 }
 .user-image {
     width: 100%;
