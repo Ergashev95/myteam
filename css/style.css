@@ -246,3 +246,92 @@ body {
     opacity: .8;
 }
 /* WHY */
+
+/* TEAM */
+.team {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    position: relative;
+}
+.team-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.team-headline {
+    color: var(--White);
+    font-size: 48px;
+    font-size: 700;
+    line-height: 48px;
+    text-align: center;
+    max-width: 932px;
+    width: 100%;
+    margin: 0 auto 56px;
+}
+.headline-active {
+    color: var(--Rapture-Blue);
+}
+.team-content {
+    display: flex;
+    column-gap: 30px;
+}
+.team-card {
+    max-width: 350px;
+    width: 100%;
+}
+.team-about {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    color: var(--White);
+    z-index: 22;
+
+}
+.team-about::before{
+    content: url(../assets/icon-quotes.svg);
+    display: block;
+    transform: translateY(24px);
+    z-index: -10;
+  
+
+}
+
+.team-user__name {
+    color: var(--Rapture-Blue);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 28px;
+    margin-top: 24px;
+}
+
+.team-user__job {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--White);
+}
+
+.team-user__ava {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #C4FFFE;
+    margin: 32px auto;
+}
+.user-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.team-bottom__image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/* TEAM */
