@@ -83,6 +83,20 @@
         max-width: 573px;
     }
     /* team */
+
+    /* contact */
+    .contact-content {
+        max-width: 570px;
+        width: 100%;
+    }
+    .contact-headline {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .contact-bottom__image {
+        bottom: -20px;
+    }
+    /* contact */
 } 
 
 @media only screen and (max-width: 576px){
@@ -182,5 +196,20 @@
         padding-bottom: 140px;
     }
     /* team */
+
+    /* contact */
+    .contact-content {
+        flex-direction: column;
+        row-gap: 24px;
+    }
+    .contact-headline {
+        max-width: 327px;
+        width: 100%;
+        text-align: center;
+    }
+    .contact-bottom__image {
+        bottom: -25px;
+    }
+    /* contact */
    
 } 

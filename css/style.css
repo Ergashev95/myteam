@@ -45,7 +45,7 @@ ul {
     display: inline-block;
     padding: 10px 32px;
     border-radius: 24px;
-    background-color: var(--Midnight-Green);
+    background-color: transparent;
     color: var(--White);
     font-family: var(--Livvic);
     font-size: 18px;
@@ -334,3 +334,36 @@ body {
     bottom: 0;
 }
 /* TEAM */
+
+/* CONTACT */
+.contact {
+    background-color: var(--Light-Coral);
+    padding-top: 76px;
+    padding-bottom: 76px;
+    position: relative;
+    overflow: hidden;
+}
+.contact-btn {
+    border-color: var(--Dark-Green);
+    color: var(--Dark-Green);
+}
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 920px;
+    width: 100%;
+    margin: auto;
+}
+.contact-headline {
+    color: var(--Dark-Green);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.contact-bottom__image {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+/* CONTACT */
