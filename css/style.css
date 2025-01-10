@@ -82,6 +82,7 @@ body {
 
 .header {
     padding-top: 73px;
+    overflow-x: hidden;
 }
 .d-flex {
     display: flex;
