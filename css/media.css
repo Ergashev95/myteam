@@ -126,6 +126,7 @@
     }
     .header {
         padding-top: 56px;
+        overflow-x: hidden;
     }
     .container {
         padding-left: 24px;
