@@ -138,7 +138,7 @@
     }
     .nav {
         position: absolute;
-        right: 0;
+        right: -255px;
         top: 0;
         width: 255px;
         height: 100vh;
