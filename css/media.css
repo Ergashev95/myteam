@@ -121,6 +121,9 @@
 } 
 
 @media only screen and (max-width: 576px){
+    .site-header-hero {
+        overflow-x: hidden;
+    }
     .header {
         padding-top: 56px;
     }
