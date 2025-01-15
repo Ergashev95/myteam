@@ -418,4 +418,11 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+.footer-content {
+    display: flex;
+    column-gap: 125px;
+}
+.footer-nav__list{
+    display: flex;
+}
 /* FOOTER */
