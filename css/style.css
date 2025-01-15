@@ -369,3 +369,53 @@ body {
     bottom: 0;
 }
 /* CONTACT */
+
+/* FOOTER */
+
+.site-footer {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: var(--Dark-Green);
+}
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.address-item {
+    color: var(--White);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    opacity: 0.6;
+}
+.address-phone {
+    color: var(--White);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.social-list {
+    display: flex;
+    column-gap: 16px;
+}
+.footer-text {
+    color: var(--White);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    opacity: 0.6;
+}
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* FOOTER */
