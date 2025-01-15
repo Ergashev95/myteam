@@ -76,7 +76,7 @@ body {
 
 .site-header-hero {
     height: 700px;
-    overflow: hidden;
+    overflow-x: hidden !important;
 }
 /* HEADER */
 
